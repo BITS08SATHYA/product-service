@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: product-service
+  config:
+    import: optional:configserver:http://config-server:8888
+#  h2:
+#    console:
+#      enabled: true
+#  datasource:
+#    url: jdbc:h2:mem:test
+#    username: sa
+#    password: ''
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: create
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/product
+#    username: myuser
+#    password: mypassword
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    database-platform: org.hibernate.dialect.PostgreSQLDialect
+#
+#server:
+#  port: 8081
